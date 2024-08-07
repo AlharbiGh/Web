@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghazi Alharbi</title>
+    <link rel="stylesheet" href="style.css"/>
+<link rel="icon" type="image/png" sizes="16x16" href="assets/Who.jpg">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/1ee8f271b9.js"></script>
+  </head>
+  <body>
+    <div id="trailer">
+      <i id="trailer-icon" class="fa-solid fa-arrow-up-right"></i>
+    </div>
+
+    <nav id="desktop-nav">
+      <div class="logo">Ghazi Alharbi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" class="interactable">About</a></li>
+          <li><a href="#Skills" class="interactable">Skills</a></li>
+          <li><a href="#projects" class="interactable">Projects</a></li>
+          <li><a href="#contact" class="interactable">Contact</a></li>
+        </ul>
+      </div>
+    </nav>      
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          class="profile-pic-img"
+          src="./assets/My.png"
+          alt="Ghazi Alharbi profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ghazi Alharbi</h1>
+        <p class="section__text__p2">Cybersecurity Specialist</p>
+        <div class="btn-container" data-type="link">
+          <button
+            class="btn btn-color-1 interactable"
+            onclick="window.open('./assets/Ghazi Alharbi - Cybersecurity - CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-2 interactable"
+            onclick="location.href='#contact'"
+          >
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a
+            class="interactable"
+            href="https://www.linkedin.com/in/ghazi-alharbi-898990264/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+
+          <a
+            class="interactable"
+            href="https://github.com/aROoYal0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+        <img
+        src="./assets/whitearrow.png"
+        alt="Arrow icon"
+        class="icon arrow interactable"
+        onclick="location.href='#about'"
+      />
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/skils.png"
+                alt="skils icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <br>
+              <p>Full stack developer
+              </p>
+              <br>
+              <p>Digital forensics and incident response</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              
+              <br/>
+              <p>
+                Computer Science & Engineering - Cyber Secuirty
+              </p>
+              <br/>
+              <p>University of Hafr Albatin
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Fresh graduate cybersecurity specialist adept in data protection (e.g., encryption, access controls), digital forensics (e.g., incident response, evidence collection), and security awareness training. Proficient in SIEM tools for security analysis, with a focus on threat detection and log analysis. Eager to leverage skills to proactively prevent cyberattacks and implement robust security solutions. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/whitearrow.png"
+        alt="Arrow icon"
+        class="icon arrow interactable"
+        onclick="location.href='#Skills'"
+      />
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="Skills-sub-title">Full stack developer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/HTMLicon.png"
+                  alt="HTML icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/cssicon.png"
+                  alt="CSS icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/java.png"
+                  alt="java icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/python.png"
+                  alt="python icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="js icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Mysql.png"
+                  alt="Mysql icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="Skills-sub-title">Digital forensics and incident response
+            </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/SIEM.png"
+                  alt="SIEM icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SIEM</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/EDR.png"
+                  alt="EDR icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>EDR</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Threat.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Threat Hunting</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Cry.png"
+                  alt="Cryptography icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cryptography</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/FileSysyem.png"
+                  alt="FileSysyem icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>File System Analysis</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/NetworkF.png"
+                  alt="NetworkF icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Network Forensics</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+      <img
+        src="./assets/whitearrow.png"
+        alt="Arrow icon"
+        class="icon arrow interactable"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="ience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+              src="./assets/CipherStego.jpg"
+              alt="Project 2"
+              class="project-img"
+            />
+            </div>
+            <h2 class="sub-title project-title">CipherStego</h2>
+            <p>CipherStego is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff...</p>
+            <img src="./assets/" alt="">
+            <div class="btn-container">
+          
+            </div>
+            
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/course.png"
+                alt="course"
+                class="project-img"
+              />
+            </div>
+            <h2 class="sub-title project-title">UHB Courses Registration App </h2>
+            <p>The objective of this software project is to develop and implement a Registration Course App that allows students to manage course registration and enrollment processes efficiently. The app should provide a user-friendly interface for students to browse available courses, register for classes, and view their course schedules</p>
+            <div class="btn-container">
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Risk.jpg"
+                alt="Risk"
+                class="project-img"
+              />
+            </div>
+            <h2 class="sub-title project-title">Risk Assessments</h2>
+            <p>This risk assessment will involve a thorough examination of the lab’s 
+              hardware and software. we aim to ensure the cybersecurity labs remain
+              a safe and secure environment for students to learn and grow in their 
+              understanding of cybersecurity. This will not only protect the 
+              universitys assets but also contribute to the broader goal of fostering a 
+              culture of cybersecurity awareness and best practices among the 
+              students.</p>
+            <div class="btn-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/whitearrow.png"
+        alt="Arrow icon"
+        class="icon arrow interactable"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a class="interactable" href="mailto:ghazialharbi.sa@gmail.com "
+              >ghazialharbi.sa@gmail.com </a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              class="interactable"
+              href="https://www.linkedin.com/in/ghazi-alharbi-898990264/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about" class="interactable">About</a></li>
+            <li><a href="#Skills" class="interactable">Sklis</a></li>
+            <li><a href="#projects" class="interactable">Projects</a></li>
+            <li><a href="#contact" class="interactable">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
